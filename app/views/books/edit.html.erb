@@ -1,10 +1,10 @@
-<h1>Editing book</h1>
+<h1><%= I18n.t('editing book') %></h1>
 
 <%= render "form", book: @book %>
 
 <br>
 
-<div>
-  <%= link_to "Show this book", @book %> |
-  <%= link_to "Back to books", books_path %>
-</div>
+<nav class="page-nav">
+  <%= link_to I18n.t('show this book'), @book %> |
+  <%= link_to I18n.t('back to books'), books_path %>
+</nav>
