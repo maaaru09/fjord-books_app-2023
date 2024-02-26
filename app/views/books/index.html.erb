@@ -1,17 +1,17 @@
 <p style="color: green"><%= notice %></p>
 
-<h1><%= I18n.t('books') %></h1>
+<h1><%= Book.human_attribute_name(:books) %></h1>
 
 <div id="books" class="index-items">
   <% @books.each do |book| %>
     <div class="index-item">
       <%= render book %>
       <p>
-        <%= link_to I18n.t('show this book'), book %>
+        <%= link_to Book.human_attribute_name(:show_book), book %>
       </p>
     </div>
   <% end %>
 </div>
 <nav class="page-nav">
-  <%= link_to I18n.t('new book'), new_book_path %>
+  <%= link_to Book.human_attribute_name(:new_book), new_book_path %>
 </nav>

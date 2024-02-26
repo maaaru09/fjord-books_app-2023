@@ -1,10 +1,10 @@
-<h1><%= I18n.t('editing book') %></h1>
+<h1><%= Book.human_attribute_name(:edit_book) %></h1>
 
 <%= render "form", book: @book %>
 
 <br>
 
 <nav class="page-nav">
-  <%= link_to I18n.t('show this book'), @book %> |
-  <%= link_to I18n.t('back to books'), books_path %>
+  <%= link_to Book.human_attribute_name(:show_book), @book %> |
+  <%= link_to Book.human_attribute_name(:back_books), books_path %>
 </nav>
