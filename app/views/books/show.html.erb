@@ -5,8 +5,8 @@
 </div>
 
 <nav class="page-nav">
-  <%= link_to Book.human_attribute_name(:edit_book), edit_book_path(@book) %> |
-  <%= link_to Book.human_attribute_name(:back_books), books_path %>
+  <%= link_to I18n.t('button.edit'), edit_book_path(@book) %> |
+  <%= link_to I18n.t('button.back'), books_path %>
 
-  <%= button_to Book.human_attribute_name(:destroy_book), @book, method: :delete %>
+  <%= button_to I18n.t('button.destroy'), @book, method: :delete %>
 </nav>

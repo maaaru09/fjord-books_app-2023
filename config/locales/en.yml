@@ -33,17 +33,22 @@ en:
   activerecord:
     attributes:
       book:
-        books: "Books"
+        list: "Books"
         title: "Title"
         memo: "Memo"
         author: "Author"
         picture: "Picture"
-        show_book: "Show this book"
-        edit_book: "Edit this book"
-        back_books: "Back to books"
-        destroy_book: "Destroy this book"
-        new_book: "New book"
-        edit_book: "Editing book"
-        create_message: "%{title} was successfully created."
-        update_message: "%{title} was successfully updated."
-        destroy_message: "%{title} was successfully destroyed."
+        new_page: "Register new book"
+        edit_page: "Editing book"
+
+  button:
+    show: "Show this book"
+    new: "New book"
+    edit: "Edit this book"
+    back: "Back to books"
+    destroy: "Destroy this book"
+
+  message:
+    create: "%{title} was successfully created."
+    update: "%{title} was successfully updated."
+    destroy: "%{title} was successfully destroyed."

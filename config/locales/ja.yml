@@ -2,17 +2,22 @@ ja:
   activerecord:
     attributes:
       book:
-        books: "書籍一覧"
+        list: "書籍一覧"
         title: "タイトル"
         memo: "メモ"
         author: "著者"
         picture: "画像"
-        show_book: "この書籍を表示"
-        edit_book: "書籍を編集する"
-        back_books: "書籍一覧に戻る"
-        destroy_book: "書籍を削除する"
-        new_book: "書籍を新規登録"
-        edit_book: "書籍編集"
-        create_message: "%{title}を作成しました"
-        update_message: "%{title}を編集しました"
-        destroy_message: "%{title}を削除しました"
+        new_page: "書籍の新規登録"
+        edit_page: "書籍の編集"
+
+  button:
+    show: "書籍を表示"
+    new: "書籍を新規登録"
+    edit: "書籍を編集する"
+    back: "書籍一覧に戻る"
+    destroy: "書籍を削除する"
+
+  message:
+    create: "%{title}を作成しました"
+    update: "%{title}を編集しました"
+    destroy: "%{title}を削除しました"
