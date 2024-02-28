@@ -5,6 +5,6 @@
 <br>
 
 <nav class="page-nav">
-  <%= link_to I18n.t('button.show'), @book %> |
+  <%= link_to I18n.t('button.show', title: @book.title), @book %> |
   <%= link_to I18n.t('button.back'), books_path %>
 </nav>

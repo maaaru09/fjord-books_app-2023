@@ -33,20 +33,20 @@ en:
   activerecord:
     attributes:
       book:
-        list: "Books"
+        list: "List"
         title: "Title"
         memo: "Memo"
         author: "Author"
         picture: "Picture"
-        new_page: "Register new book"
-        edit_page: "Editing book"
+        new_page: "Register new"
+        edit_page: "Editing"
 
   button:
-    show: "Show this book"
-    new: "New book"
-    edit: "Edit this book"
-    back: "Back to books"
-    destroy: "Destroy this book"
+    show: "Show %{title}"
+    new: "Register new"
+    edit: "Edit %{title}"
+    back: "Back to list"
+    destroy: "Destroy %{title}"
 
   message:
     create: "%{title} was successfully created."

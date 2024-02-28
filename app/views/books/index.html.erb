@@ -7,7 +7,7 @@
     <div class="index-item">
       <%= render book %>
       <p>
-        <%= link_to I18n.t('button.show'), book %>
+        <%= link_to I18n.t('button.show', title: book.title), book %>
       </p>
     </div>
   <% end %>
