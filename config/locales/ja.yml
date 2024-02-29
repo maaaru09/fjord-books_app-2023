@@ -1,0 +1,23 @@
+ja:
+  activerecord:
+    attributes:
+      book:
+        list: "リスト"
+        title: "タイトル"
+        memo: "メモ"
+        author: "著者"
+        picture: "画像"
+        new_page: "新規登録"
+        edit_page: "編集"
+
+  button:
+    show: "%{title}を表示"
+    new: "新規登録"
+    edit: "%{title}を編集する"
+    back: "リストに戻る"
+    destroy: "%{title}を削除する"
+
+  message:
+    create: "%{title}を作成しました"
+    update: "%{title}を編集しました"
+    destroy: "%{title}を削除しました"
